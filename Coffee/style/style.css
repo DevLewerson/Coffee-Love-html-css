@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lato:wght@400;700&family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;500&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+body{
+    background: #995720;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .logo{
+    color: #995720;
+    font-size: 2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #e2b28b;
+    padding: 0 10px;
+    font-family: 'lato', sans-serif;
+    font-weight: 600;
+}
+
+header .navbar{
+    position: relative;
+    display: flex;
+}
+
+header .navbar li{
+    list-style: none;
+    margin-left: 30px;
+}
+
+header .navbar li a{
+    text-decoration: none;
+    color: #b9a493;
+    font-weight: 600;
+    padding: 10px;
+    transition: 0.3s;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+header .navbar li a:hover{
+    color: #e2b28b; 
+}
+
+.main{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.main .title{
+    position: relative;
+    max-width: 600px;
+}
+
+.main .title h2{
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #b9a493;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.main .title a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #995720;
+    background: #e2b28b;
+    font-size: 2em;
+    font-weight: 600;
+    font-family: 'lato', sans-serif;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 180px;
+    letter-spacing: 2px;
+}
+
+.main .title a:hover{
+    color: #995720;
+    background: #b9a493;
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer a{
+    margin: 10px;
+    font-size: 40px;
+    color: #e2b28b;
+}
